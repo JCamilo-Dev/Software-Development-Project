@@ -18,7 +18,7 @@ def main():
     while True:
         choice = ask(UNI_PROMPT, CYAN).strip().upper()
         if choice == "A":
-            admin_controller.run()
+            ""
         elif choice == "S":
             student_controller.run()
         elif choice == "X":
